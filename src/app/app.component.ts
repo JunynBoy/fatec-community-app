@@ -1,10 +1,10 @@
 import { Component } from '@angular/core';
+import { environment } from '../enviroments/enviroment';
 
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
-  styleUrl: './app.component.less'
 })
 export class AppComponent {
-  title = 'fatec-community-app';
+  title = environment.nome_aplicacao;
 }

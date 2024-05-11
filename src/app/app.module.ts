@@ -3,6 +3,7 @@ import { BrowserModule, provideClientHydration } from '@angular/platform-browser
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { ServerModule } from '@angular/platform-server';
 
 @NgModule({
   declarations: [
@@ -10,11 +11,11 @@ import { AppComponent } from './app.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    ServerModule
   ],
   providers: [
     provideClientHydration()
   ],
-  bootstrap: [AppComponent]
 })
 export class AppModule { }
