@@ -19,10 +19,7 @@ const routes: Routes = [
         path:'feed',
         component: FeedComponent,
       },
-      {
-        path:'**',
-        component:NotFoundComponent
-      }
+
     ]
   }
 

@@ -7,4 +7,6 @@ import { Component } from '@angular/core';
 })
 export class LoginComponent {
 
+  public date1!:Date;
+
 }
